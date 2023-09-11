@@ -1,0 +1,19 @@
+{
+  "name": "zenstest",
+  "version": "1.0.0",
+  "description": "ZenS Code Test",
+  "main": "server.ts",
+  "scripts": {
+    "lint": "npx eslint .",
+    "g": "npm run build",
+    "build": "tsc --strictFunctionTypes --extendedDiagnostics"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0"
+  }
+}
